@@ -19,7 +19,6 @@ export default Ember.Route.extend({
       if(!Ember.isEmpty(frames)){
         var allRolls = this.getRolls(frames);
         this.calculateScore(allRolls);
-        // this.controller.set('model.finalScore', this.calculateScore(allRolls));
       }
     },
     //Clicking the Reset Game button triggers this action
