@@ -1,0 +1,96 @@
+html, body {
+  width: 100%;
+}
+
+body > div {
+  display: block;
+  min-width: 383px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+div{
+  display: inline-block;
+}
+h2, main, #finalScoreBox{
+  border: solid 1px #01819b;
+  margin: 0;
+  padding: 10px;
+}
+h2{
+  text-align:center;
+  background-color:#D5E7EA;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom: none;
+}
+main{
+  border-top: none;
+  border-bottom: none;
+}
+
+h5.frametitle{
+  background-color: #01819b;
+  color: white;
+  font-size: .7em;
+  padding: 2px;
+  text-align: center;
+  margin: 0;
+}
+
+.framebox{
+  width: 90px;
+  height: 90px;
+  border: solid #01819b 2px;
+  border-radius: 5px;
+  margin: 2px 1px 5px 1px;
+}
+#rollbox{
+  height: 32px;
+  width: 100%;
+  display: block;
+}
+
+.rolls{
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  float: right;
+}
+
+.rolls input{
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.rolls div{margin: 0; padding: 0;}
+
+.framescore{
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  width: 100%;
+}
+
+#formBtn{ margin: 10px 2px; display: block; text-align: right;}
+#calcScoreBtn{background-color: #ed1c92; border: 1px solid #990159;}
+#calcScoreBtn:hover{background-color: #990159; border: 1px solid #ed1c92;}
+#resetScoreBtn{background-color: #01819B; border: 1px solid #D5E7EA;}
+#resetScoreBtn:hover{background-color: #31abc4; border: 1px solid #01819B;}
+
+#finalScoreBox{
+  display: block;
+  font-size: 2em;
+  background-color: #d5e7ea;
+  border-radius: 0 0 5px 5px;
+  border-top: none;
+  padding: 5px;
+  text-align: center;
+}
+.finalScore{
+  font-weight: bold;
+  text-align: center;
+}

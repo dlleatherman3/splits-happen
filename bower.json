@@ -1,0 +1,7 @@
+{
+  "name": "bowling-in-ember",
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

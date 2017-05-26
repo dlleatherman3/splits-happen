@@ -1,0 +1,15 @@
+<h2>Bowling Game</h2>
+<main>
+  <form>
+    {{#each model.frames as |frame|}}
+      {{frame-box frame=frame allFrames=model.frames}}
+    {{/each}}
+    <div id="formBtn">
+      <button type="button" class="btn btn-info" id="calcScoreBtn" {{action 'calcScore'}}>Calculate Score</button>
+      <button type="button" class="btn btn-info" id="resetScoreBtn" {{action 'resetGame'}}>Reset Game</button>
+    </div>
+  </form>
+</main>
+<div id="finalScoreBox">
+  <div class="finalScore">Final Score: {{model.finalScore}}</div>
+</div>

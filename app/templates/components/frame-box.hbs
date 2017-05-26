@@ -1,0 +1,23 @@
+<div class="framebox">
+  <h5 class="frametitle">
+    {{#if frame.bonusFrame}}
+      Bonus Frame
+    {{else}}
+      Frame: {{frame.frameId}}
+    {{/if}}
+  </h5>
+  <div id="rollbox">
+    <div class="rolls">
+      {{roll-score frameId=frame.frameId rollValue=frame.roll1 disabled=frame.bonusFrame}}
+      {{roll-score frameId=frame.frameId rollValue=frame.roll2  disabled=frame.bonusFrame}}
+    </div>
+  </div>
+  <div class="framescore">
+    {{#if frame.bonusFrame}}
+      -
+    {{else}}
+      {{frame.frameScore}}
+    <!-- <div class="framescore">{{frameScore}}</div> -->
+    {{/if}}
+  </div>
+</div>
