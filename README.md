@@ -27,6 +27,15 @@ Use the test cases from the table below to validate the scoring logic of your pr
 | 5/5/5/5/5/5/5/5/5/5/5 | (10+5) + (10+5) + (10+5) + (10+5) + (10+5) + (10+5) + (10+5) + (10+5) + (10+5) + (10+5)                                         | 150         |
 | X7/9-X-88/-6XXX81     | (10+7+3) + (7+3+9) + 9 + (10+0+8) + 8 + (8+2+0) + 6 + (10+10+10) + (10+10+8) + (10+8+1)                                         | 167         |
 
+## Installation & Use
+*  If you do not have npm set up on your machine, follow the instructions [here](https://docs.npmjs.com/getting-started/installing-node) to set it up.
+*  For this version of splits-happen, Ember-CLI needs to be installed.  To do that, run the following command in your command line `npm install -g ember-cli@2.11`
+	-  Full Ember Installation instructions found [here](https://guides.emberjs.com/v2.13.0/getting-started/)
+*  Clone project to local machine.
+*  From the split-happens directory, start Ember server in your command-line with this command: `ember server`
+*  The server may take a minute to fully start.  After you see a "Build successful" message in the cmd prompt, you can open the EmberJS app in your browser.  In a browser, navigate to [http://localhost:4200](http://localhost:4200).  
+*  Enter scores and have fun!
+
 
 
 
