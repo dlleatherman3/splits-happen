@@ -23,10 +23,13 @@ h2{
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   border-bottom: none;
+  font-weight: bold;
+  font-size: 2em;
 }
 main{
   border-top: none;
   border-bottom: none;
+  background-color: #f7fdff;
 }
 
 h5.frametitle{
@@ -44,6 +47,7 @@ h5.frametitle{
   border: solid #01819b 2px;
   border-radius: 5px;
   margin: 2px 1px 5px 1px;
+  background-color: white;
 }
 #rollbox{
   height: 32px;

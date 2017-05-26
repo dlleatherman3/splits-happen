@@ -4,15 +4,6 @@ import Ember from 'ember';
 export default Ember.Route.extend({
 
   model: function(){
-    // var initialFrames = [];
-    // for(var i=0; i<11; i++){
-    //   var bonusFrame = false;
-    //   if(i===10){
-    //     bonusFrame = true;
-    //   }
-    //   initialFrames.push({frameId: i+1, roll1: null, roll2: null, frameScore: 0, bonusFrame: bonusFrame});
-    // }
-
     var myModel = {
       rolls: [],
       frames: this.buildInitialFrames(),
